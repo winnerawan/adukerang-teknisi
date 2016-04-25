@@ -1,0 +1,10 @@
+CHANGED,/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/co/ipb/adukerang/activity/NotifActivity$10$override.class
+CHANGED,/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/co/ipb/adukerang/activity/NotifActivity$4$override.class
+CHANGED,/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class
+CHANGED,/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/co/ipb/adukerang/activity/NotifActivity$5$override.class
+CHANGED,/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/co/ipb/adukerang/activity/NotifActivity$override.class
+CHANGED,/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/co/ipb/adukerang/activity/NotifActivity$3$override.class
+CHANGED,/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/co/ipb/adukerang/activity/NotifActivity$7$override.class
+CHANGED,/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/co/ipb/adukerang/activity/NotifActivity$6$override.class
+CHANGED,/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/co/ipb/adukerang/activity/NotifActivity$8$override.class
+CHANGED,/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/co/ipb/adukerang/activity/NotifActivity$9$override.class

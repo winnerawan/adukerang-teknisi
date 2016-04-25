@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activity.NotifActivity"
+    tools:showIn="@layout/activity_notif">
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Ruangan"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="30dip"
+            android:textSize="8pt"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/txtRuang"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dip"
+            android:layout_marginBottom="20dip"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Barang"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:textSize="8pt"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/txtBarang"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dip"
+            android:layout_marginBottom="20dip"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Keluhan "
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:textSize="8pt"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/txtKeluhan"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dip"
+            android:layout_marginBottom="20dip"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Status "
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:textSize="8pt"
+            android:textColor="@color/colorPrimary"/>
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:text="PROSES"
+            android:id="@+id/cProses"
+            android:layout_marginLeft="10dp"
+            android:layout_height="match_parent" />
+
+        <CheckBox
+            android:id="@+id/cPending"
+            android:layout_width="match_parent"
+            android:text="PENDING"
+            android:layout_marginLeft="10dp"
+            android:layout_height="match_parent" />
+
+        <CheckBox
+            android:id="@+id/cSelesai"
+            android:layout_width="match_parent"
+            android:text="SELESAI"
+            android:layout_marginLeft="10dp"
+            android:layout_height="match_parent" />
+
+        <Spinner
+            android:id="@+id/spStatus"
+            android:visibility="gone"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="10dip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Verifikasi "
+            android:id="@+id/tvverify"
+            android:visibility="gone"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="20dip"
+            android:textSize="8pt"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/temporary_gcm_pengadu"
+            android:visibility="gone"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:id="@+id/temporary_unique_id" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:id="@+id/temporary_id_keluhan" />
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:visibility="gone"
+            android:id="@+id/cVerify"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+            <Button
+                android:id="@+id/btnLapor"
+                android:layout_width="125dip"
+                android:layout_height="50dip"
+                android:text="Send"
+                android:layout_marginBottom="20dip"
+                android:textColor="#FFFFFF"
+                android:layout_margin="20dip"
+                android:background="@drawable/button"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/btnCancel"
+                android:layout_width="125dip"
+                android:layout_height="50dip"
+                android:text="Cancel"
+                android:layout_marginBottom="20dip"
+                android:textColor="#FFFFFF"
+                android:layout_margin="20dip"
+                android:background="@drawable/button" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

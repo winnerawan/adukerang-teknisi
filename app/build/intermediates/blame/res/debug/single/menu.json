@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/menu/menu_profile.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/menu/menu_profile.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/menu/activity_main_drawer.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/menu/activity_main_drawer.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/menu/main.xml"
+    }
+]

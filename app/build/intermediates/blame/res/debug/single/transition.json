@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/transition/activity_slide.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/transition/activity_slide.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/transition/activity_fade.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/transition/activity_fade.xml"
+    }
+]

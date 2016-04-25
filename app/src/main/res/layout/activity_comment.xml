@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="co.ipb.adukerang.activity.CommentActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_marginTop="24dp"
+        android:layout_width="match_parent"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    <fragment
+        android:layout_below="@id/toolbar"
+        android:layout_width="match_parent"
+        android:id="@+id/fragment_comment"
+        android:layout_height="400dp"
+        android:layout_marginBottom="7dp"
+        android:name="co.ipb.adukerang.fragment.CommentFragment" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="@drawable/bg_editext"
+        android:layout_below="@id/fragment_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout4">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/txtcomment"
+            android:layout_height="105dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="389dp"
+        android:text="Send"
+        android:id="@+id/bComment"
+        android:textColor="@color/white"
+        android:textAlignment="gravity"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:layout_below="@+id/linearLayout4"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:id="@+id/temp"/>
+
+</RelativeLayout>

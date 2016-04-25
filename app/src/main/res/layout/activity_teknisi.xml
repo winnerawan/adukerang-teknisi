@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="co.ipb.adukerang.activity.TeknisiActivity">
+
+    <include layout="@layout/atas_toolbar"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Ruangan"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="30dip"
+        android:textSize="8pt"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/txtRuang"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:layout_marginBottom="20dip"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Barang"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:textSize="8pt"
+        android:textColor="@color/colorPrimary"/>
+
+    <TextView
+        android:id="@+id/txtBarang"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:layout_marginBottom="20dip"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Keluhan "
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:textSize="8pt"
+        android:textColor="@color/colorPrimary"/>
+
+    <TextView
+        android:id="@+id/txtKeluhan"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:layout_marginBottom="20dip"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Foto "
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:textSize="8pt"
+        android:textColor="@color/colorPrimary"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_margin="10dip"
+        android:layout_marginBottom="20dip"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Status "
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="20dip"
+        android:textSize="8pt"
+        android:textColor="@color/colorPrimary"/>
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="10dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <Button
+            android:id="@+id/btnLapor"
+            android:layout_width="125dip"
+            android:layout_height="50dip"
+            android:text="Send"
+            android:layout_marginBottom="20dip"
+            android:textColor="#FFFFFF"
+            android:layout_margin="20dip"
+            android:background="@drawable/button"
+            android:layout_gravity="center" />
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="125dip"
+            android:layout_height="50dip"
+            android:text="Cancel"
+            android:layout_marginBottom="20dip"
+            android:textColor="#FFFFFF"
+            android:layout_margin="20dip"
+            android:background="@drawable/button" />
+    </LinearLayout>
+</LinearLayout>
+

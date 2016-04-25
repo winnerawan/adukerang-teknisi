@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activity.SettingsActivity"
+    tools:showIn="@layout/activity_settings">
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Username "
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:textSize="8pt"/>
+
+        <EditText
+            android:id="@+id/editUsername"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginBottom="15dip"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Email "
+            android:textColor="@color/colorPrimary"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:textSize="8pt"/>
+
+        <EditText
+            android:id="@+id/editEmail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginBottom="15dip"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Password "
+            android:textColor="@color/colorPrimary"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:textSize="8pt"/>
+
+        <EditText
+            android:id="@+id/editPassword"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:inputType="textPassword"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginBottom="15dip"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirm Password "
+            android:textColor="@color/colorPrimary"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:textSize="8pt"/>
+
+        <EditText
+            android:id="@+id/editConfirmPassword"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginLeft="10dip"
+            android:inputType="textPassword"
+            android:layout_marginRight="10dip"
+            android:layout_marginBottom="15dip"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+            <Button
+                android:id="@+id/btnLapor"
+                android:layout_width="125dip"
+                android:layout_height="50dip"
+                android:text="Send"
+                android:layout_marginBottom="20dip"
+                android:textColor="#FFFFFF"
+                android:layout_margin="20dip"
+                android:background="@drawable/button"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/btnCancel"
+                android:layout_width="125dip"
+                android:layout_height="50dip"
+                android:text="Cancel"
+                android:layout_marginBottom="20dip"
+                android:textColor="#FFFFFF"
+                android:layout_margin="20dip"
+                android:background="@drawable/button" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

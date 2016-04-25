@@ -1,0 +1,152 @@
+[
+    {
+        "outputFile": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/values-v19/values-v19.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 51,
+                    "endOffset": 102
+                },
+                "from": {
+                    "file": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.mikepenz/materialize/0.2.5/res/values-v19/values-v19.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 204,
+                        "endColumn": 51,
+                        "endOffset": 251
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 107,
+                    "endLine": 5,
+                    "endColumn": 12,
+                    "endOffset": 274
+                },
+                "from": {
+                    "file": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.mikepenz/materialize/0.2.5/res/values-v19/values-v19.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 405,
+                        "endLine": 9,
+                        "endColumn": 12,
+                        "endOffset": 572
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 279,
+                    "endLine": 8,
+                    "endColumn": 12,
+                    "endOffset": 458
+                },
+                "from": {
+                    "file": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.mikepenz/materialize/0.2.5/res/values-v19/values-v19.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 577,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 756
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 463,
+                    "endLine": 11,
+                    "endColumn": 12,
+                    "endOffset": 666
+                },
+                "from": {
+                    "file": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.mikepenz/materialize/0.2.5/res/values-v19/values-v19.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 761,
+                        "endLine": 15,
+                        "endColumn": 12,
+                        "endOffset": 964
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 671,
+                    "endLine": 14,
+                    "endColumn": 12,
+                    "endOffset": 854
+                },
+                "from": {
+                    "file": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.mikepenz/materialize/0.2.5/res/values-v19/values-v19.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 969,
+                        "endLine": 18,
+                        "endColumn": 12,
+                        "endOffset": 1152
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 859,
+                    "endLine": 17,
+                    "endColumn": 12,
+                    "endOffset": 1018
+                },
+                "from": {
+                    "file": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.mikepenz/materialize/0.2.5/res/values-v19/values-v19.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1157,
+                        "endLine": 21,
+                        "endColumn": 12,
+                        "endOffset": 1316
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1023,
+                    "endLine": 20,
+                    "endColumn": 12,
+                    "endOffset": 1170
+                },
+                "from": {
+                    "file": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.mikepenz/materialize/0.2.5/res/values-v19/values-v19.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1321,
+                        "endLine": 24,
+                        "endColumn": 12,
+                        "endOffset": 1468
+                    }
+                }
+            }
+        ]
+    }
+]

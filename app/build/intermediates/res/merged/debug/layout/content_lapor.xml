@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.LaporActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="2dp"
+    android:layout_marginRight="2dp"
+    android:background="@drawable/bg_editext"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Ruangan "
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="20dip"
+        android:textSize="8pt"
+        android:textColor="@color/colorPrimary"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="10dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginBottom="15dip"
+        android:textColor="@color/colorPrimary">
+        <requestFocus />
+    </AutoCompleteTextView>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:background="@drawable/bg_editext"
+        android:layout_marginTop="8dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Barang "
+            android:paddingTop="10dp"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:textSize="8pt"
+            android:textColor="@color/colorPrimary"/>
+
+        <Spinner
+            android:id="@+id/spItems"
+            style="@style/style_Spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:layout_marginLeft="10dip"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginRight="10dip"
+            android:layout_marginBottom="15dip" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:background="@drawable/bg_editext"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Keluhan "
+            android:paddingTop="10dp"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:textSize="8pt"/>
+
+        <EditText
+            android:id="@+id/editKeluhan"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginBottom="15dip"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Foto "
+        android:paddingTop="20dp"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:textColor="@color/colorPrimary"
+        android:textSize="8pt"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/imageView3" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/kamera"
+            android:src="@drawable/camera" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/folder"
+            android:src="@drawable/folder" />
+    <ImageView
+        android:layout_width="50dp"
+        android:id="@+id/foto"
+        android:scaleType="fitXY"
+        android:layout_height="60dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <Button
+            android:id="@+id/btnLapor"
+            android:layout_width="125dip"
+            android:layout_height="50dip"
+            android:text="Lapor"
+            android:layout_marginBottom="20dip"
+            android:textColor="#FFFFFF"
+            android:layout_margin="20dip"
+            android:background="@drawable/button"
+            android:layout_gravity="center" />
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="125dip"
+            android:layout_height="50dip"
+            android:text="Cancel"
+            android:layout_marginBottom="20dip"
+            android:textColor="#FFFFFF"
+            android:layout_margin="20dip"
+            android:background="@drawable/button"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/xml/pref_headers.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/xml/pref_headers.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/xml/pref_general.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/xml/pref_general.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/xml/pref_data_sync.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/xml/pref_data_sync.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/xml/pref_notification.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/xml/pref_notification.xml"
+    }
+]

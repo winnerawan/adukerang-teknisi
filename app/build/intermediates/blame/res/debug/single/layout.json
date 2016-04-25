@@ -1,0 +1,478 @@
+[
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/activity_notif.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/layout/activity_notif.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/content_notif.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/layout/content_notif.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/blur.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/layout/blur.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/activity_dashboard.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/layout/activity_dashboard.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/content_settings.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/layout/content_settings.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/design_menu_item_action_area.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/res/layout/design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/material_drawer_header.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.mikepenz/materialdrawer/4.0.8/res/layout/material_drawer_header.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/tb_lapor.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/layout/tb_lapor.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/foto_profil.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/layout/foto_profil.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/keluhan_fragment.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/layout/keluhan_fragment.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar_include.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/res/layout/design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/avatar.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/layout/avatar.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/place_autocomplete_item_powered_by_google.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/layout/place_autocomplete_item_powered_by_google.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/material_drawer_item_profile.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.mikepenz/materialdrawer/4.0.8/res/layout/material_drawer_item_profile.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/material_drawer_item_secondary.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.mikepenz/materialdrawer/4.0.8/res/layout/material_drawer_item_secondary.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/card_item_one.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/layout/card_item_one.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/material_drawer_slider.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.mikepenz/materialdrawer/4.0.8/res/layout/material_drawer_slider.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/content_login.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/layout/content_login.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/foto_keluhan.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/layout/foto_keluhan.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/activity_complaints.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/layout/activity_complaints.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/place_autocomplete_item_prediction.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/layout/place_autocomplete_item_prediction.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/row_spinner_dropdown.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/layout/row_spinner_dropdown.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/nav_header_main.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/layout/nav_header_main.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/content_dashboard.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/layout/content_dashboard.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/mr_media_route_chooser_dialog.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/layout/mr_media_route_chooser_dialog.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/activity_comment.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/layout/activity_comment.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/material_drawer_item_toggle.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.mikepenz/materialdrawer/4.0.8/res/layout/material_drawer_item_toggle.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/material_drawer_item_container.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.mikepenz/materialdrawer/4.0.8/res/layout/material_drawer_item_container.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/content_profile.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/layout/content_profile.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/design_navigation_item.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/res/layout/design_navigation_item.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/likeview.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.github.jd-alexander/LikeButton/0.2.0/res/layout/likeview.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/design_bottom_sheet_dialog.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/res/layout/design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/content_details.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/layout/content_details.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/materialize.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.mikepenz/materialize/0.2.5/res/layout/materialize.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/activity_complaint.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/layout/activity_complaint.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/content_lapor.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/layout/content_lapor.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/design_layout_tab_text.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/res/layout/design_layout_tab_text.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/material_drawer_compact_header.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.mikepenz/materialdrawer/4.0.8/res/layout/material_drawer_compact_header.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/material_drawer.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.mikepenz/materialdrawer/4.0.8/res/layout/material_drawer.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/material_drawer_item_primary.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.mikepenz/materialdrawer/4.0.8/res/layout/material_drawer_item_primary.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/notification_template_lines.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/notification_template_lines.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/material_drawer_item_divider.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.mikepenz/materialdrawer/4.0.8/res/layout/material_drawer_item_divider.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/material_drawer_item_mini_profile.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.mikepenz/materialdrawer/4.0.8/res/layout/material_drawer_item_mini_profile.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/keluhanku_fragment.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/layout/keluhanku_fragment.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/design_navigation_item_header.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/res/layout/design_navigation_item_header.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/design_navigation_menu_item.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/res/layout/design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/activity_teknisi.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/layout/activity_teknisi.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/list_comment.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/layout/list_comment.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/list_keluhan.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/layout/list_keluhan.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/content_register.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/layout/content_register.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/mr_media_route_controller_material_dialog_b.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/layout/mr_media_route_controller_material_dialog_b.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/row_spinner.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/layout/row_spinner.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/profile_fragment.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/layout/profile_fragment.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/material_drawer_item_profile_setting.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.mikepenz/materialdrawer/4.0.8/res/layout/material_drawer_item_profile_setting.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/lis_keluhanku.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/layout/lis_keluhanku.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/material_drawer_item_secondary_switch.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.mikepenz/materialdrawer/4.0.8/res/layout/material_drawer_item_secondary_switch.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/res/layout/design_navigation_menu.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/activity_settings.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/layout/activity_settings.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/activity_profile.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/layout/activity_profile.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/activity_register.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/layout/activity_register.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/toolbar.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/layout/toolbar.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/activity_login.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/app_bar_main.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/layout/app_bar_main.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/layout_spinner.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/layout/layout_spinner.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/comment_fragment.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/layout/comment_fragment.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/place_autocomplete_progress.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/layout/place_autocomplete_progress.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/foto_profil_details.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/layout/foto_profil_details.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/material_drawer_item_secondary_toggle.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.mikepenz/materialdrawer/4.0.8/res/layout/material_drawer_item_secondary_toggle.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/activity_details.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/layout/activity_details.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/listviewnull.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/layout/listviewnull.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/res/layout/design_layout_snackbar.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/material_drawer_item_section.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.mikepenz/materialdrawer/4.0.8/res/layout/material_drawer_item_section.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/res/layout/design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/content_main.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/layout/content_main.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/design_layout_tab_icon.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/res/layout/design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/design_navigation_item_subheader.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/res/layout/design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/activity_lapor.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/layout/activity_lapor.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/material_drawer_item_switch.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.mikepenz/materialdrawer/4.0.8/res/layout/material_drawer_item_switch.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/atas_toolbar.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/layout/atas_toolbar.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/material_drawer_recycler_view.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.mikepenz/materialdrawer/4.0.8/res/layout/material_drawer_recycler_view.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/layout_spinner_dropdown.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/layout/layout_spinner_dropdown.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/material_drawer_item_mini.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.mikepenz/materialdrawer/4.0.8/res/layout/material_drawer_item_mini.xml"
+    }
+]

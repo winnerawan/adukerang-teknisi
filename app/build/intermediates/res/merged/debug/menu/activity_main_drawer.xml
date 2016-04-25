@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profil"
+            android:icon="@drawable/ic_menu_profile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_complaints"
+            android:icon="@drawable/ic_menu_cekstatus"
+            android:title="Complaints" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_menu_setting"
+            android:title="Setting" />
+    </group>
+</menu>
