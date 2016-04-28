@@ -175,7 +175,21 @@ public class DashboardActivity extends AppCompatActivity {
                                 startActivity(new Intent(DashboardActivity.this, SettingsActivity.class));
                                 break;
                             case 4:
-                                logoutUser();
+                                AlertDialog.Builder alert = new AlertDialog.Builder(DashboardActivity.this);
+                                alert.setTitle("Are you sure want to exit?");
+                                alert.setPositiveButton("Logout", new DialogInterface.OnClickListener() {
+                                    @Override
+                                    public void onClick(DialogInterface dialogInterface, int i) {
+                                        logoutUser();
+                                    }
+                                }).setNegativeButton("No", new DialogInterface.OnClickListener() {
+                                    @Override
+                                    public void onClick(DialogInterface dialogInterface, int i) {
+                                        dialogInterface.cancel();
+                                    }
+                                });
+                                AlertDialog alertDialog = alert.create();
+                                alertDialog.show();
                         }
                         return true;
                     }

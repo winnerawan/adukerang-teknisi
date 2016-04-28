@@ -75,13 +75,15 @@ public class ProfileActivity extends AppCompatActivity {
         ViewPager viewPager = (ViewPager) findViewById(R.id.pager);
         viewPager.setAdapter(new SampleFragmentPagerAdapter(getSupportFragmentManager()));
         viewPager.getAdapter().notifyDataSetChanged();
+        viewPager.setOffscreenPageLimit(1);
+        viewPager.beginFakeDrag();
 
         PagerSlidingTabStrip tabsStrip = (PagerSlidingTabStrip) findViewById(R.id.tabs);
         // Attach the view pager to the tab strip
         tabsStrip.setViewPager(viewPager);
     }
     public class SampleFragmentPagerAdapter extends FragmentPagerAdapter {
-        final int PAGE_COUNT = 2;
+        final int PAGE_COUNT = 1;
 
         public SampleFragmentPagerAdapter(FragmentManager fm) {
             super(fm);
@@ -90,7 +92,7 @@ public class ProfileActivity extends AppCompatActivity {
         @Override
         public CharSequence getPageTitle(int position) {
             return (position == 0) ? "PROFILE" :
-                    getResources().getString(R.string.title_keluhan);
+                    getResources().getString(R.string.blank);
         }
 
         @Override

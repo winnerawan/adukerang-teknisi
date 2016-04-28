@@ -383,6 +383,6 @@ public class NotifActivity extends AppCompatActivity implements View.OnClickList
 
         // Adding request to request queue
         AppController.getInstance().addToRequestQueue(sr, tag_json_obj);
-    
+
     }
 }
