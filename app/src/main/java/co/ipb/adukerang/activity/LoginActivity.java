@@ -129,20 +129,21 @@ public class LoginActivity extends Activity {
                 email = txtEmail.getText().toString().trim();
                 String password = txtPassword.getText().toString().trim();
 
-                    if (level.getSelectedItem().toString().equals("Teknisi") && (!email.isEmpty() && (!password.isEmpty()))) {
+                    if (!email.isEmpty() && !password.isEmpty()) {
                         loginTeknisi(email, password);
                         Log.e(TAG, txtEmail.getText().toString());
-                    } else if (level.getSelectedItem().toString().equals("User") && (!email.isEmpty() && (!password.isEmpty()))) {
-                        checkLogin(email, password);
+                        // } else if (level.getSelectedItem().toString().equals("User") && (!email.isEmpty() && (!password.isEmpty()))) {
+                        //  checkLogin(email, password);
                         //updateGCMID(email,regId);
                         //Log.i(TAG, "REGID = "+regId);
-                    } else if (level.getSelectedItem().toString().equals("")) {
+                        //} else if (level.getSelectedItem().toString().equals("")) {
+                    }else {
                         Snackbar snackbar = Snackbar.make(snackbarCoordinatorLayout,
-                                "Anda Teknisi atau User ? ", Snackbar.LENGTH_LONG);
+                                "Please Fill Credentials", Snackbar.LENGTH_LONG);
                         snackbar.show();
-                    } if ((txtEmail.getText().toString().isEmpty() && txtPassword.getText().toString().isEmpty()) &&
-                        (level.getSelectedItem().toString().equals("Teknisi") || level.getSelectedItem().toString().equals("User"))) {
-                        Toast.makeText(getApplicationContext(),"Isi Email & Password !",Toast.LENGTH_LONG).show();
+                    //} if ((txtEmail.getText().toString().isEmpty() && txtPassword.getText().toString().isEmpty()) &&
+                    //    (level.getSelectedItem().toString().equals("Teknisi") || level.getSelectedItem().toString().equals("User"))) {
+                    //    Toast.makeText(getApplicationContext(),"Isi Email & Password !",Toast.LENGTH_LONG).show();
                     }
             }
         });

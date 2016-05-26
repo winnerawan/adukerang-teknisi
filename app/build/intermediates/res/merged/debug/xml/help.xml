@@ -1,0 +1,28 @@
+<PreferenceScreen
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <co.ipb.adukerang.helper.KerangPrefScreen
+        android:id="@+id/aaa"
+        android:title="A" android:textSize="@dimen/font_mll">
+
+    </co.ipb.adukerang.helper.KerangPrefScreen>
+    <co.ipb.adukerang.helper.KerangPrefScreen
+        android:id="@+id/aaa"
+        android:title="" android:textSize="@dimen/font_mll">
+
+    </co.ipb.adukerang.helper.KerangPrefScreen>
+
+
+<co.ipb.adukerang.helper.KerangPrefScreen android:title="@string/help0">
+<Preference
+    android:key="gpl3"
+    android:title="@string/app_name"
+    android:summary="Panduan"/>
+<Preference
+    android:key="apache2"
+    android:title="AduKerang"
+    android:summary="Version App"/>
+</co.ipb.adukerang.helper.KerangPrefScreen>
+</PreferenceScreen>

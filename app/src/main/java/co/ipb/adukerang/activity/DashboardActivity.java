@@ -161,10 +161,12 @@ public class DashboardActivity extends AppCompatActivity {
                 .withIcon(R.drawable.logout).withSelectable(false);
         PrimaryDrawerItem setting = new PrimaryDrawerItem().withName(R.string.drawer_setting)
                 .withIcon(R.drawable.setting).withSelectable(false);
+        PrimaryDrawerItem help = new PrimaryDrawerItem().withName(R.string.drawer_help)
+                .withIcon(R.drawable.help).withSelectable(false);
 
         mDrawer = new DrawerBuilder().withActivity(this).withAccountHeader(header).withToolbar(toolbar)
                 .addDrawerItems(new DividerDrawerItem(),
-                        profile, setting, logout).withOnDrawerItemClickListener(new Drawer.OnDrawerItemClickListener() {
+                        profile, setting, help, logout).withOnDrawerItemClickListener(new Drawer.OnDrawerItemClickListener() {
                     @Override
                     public boolean onItemClick(View view, int position, IDrawerItem drawerItem) {
                         switch (position) {
@@ -175,6 +177,9 @@ public class DashboardActivity extends AppCompatActivity {
                                 startActivity(new Intent(DashboardActivity.this, SettingsActivity.class));
                                 break;
                             case 4:
+                                startActivity(new Intent(DashboardActivity.this, Help.class));
+                                break;
+                            case 5:
                                 AlertDialog.Builder alert = new AlertDialog.Builder(DashboardActivity.this);
                                 alert.setTitle("Are you sure want to exit?");
                                 alert.setPositiveButton("Logout", new DialogInterface.OnClickListener() {

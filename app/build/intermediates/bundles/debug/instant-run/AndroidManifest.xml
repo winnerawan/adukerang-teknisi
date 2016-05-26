@@ -50,7 +50,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="co.ipb.adukerang.activity.MainActivity"
+            android:name="co.ipb.adukerang.activity.LoginActivity"
             android:label="Complaints"
             android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>
@@ -60,7 +60,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="co.ipb.adukerang.activity.LoginActivity"
+            android:name="co.ipb.adukerang.activity.MainActivity"
             android:label="@string/title_activity_login"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
@@ -127,6 +127,8 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="co.ipb.adukerang.activity.DetailsActivity" />
         </activity>
+        <activity android:name="co.ipb.adukerang.activity.Help" />
+        <activity android:name="co.ipb.adukerang.handler.Version" />
         <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
         <activity
             android:name="com.google.android.gms.ads.AdActivity"

@@ -12,6 +12,8 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -73,12 +75,14 @@ public class NotifActivity2 extends AppCompatActivity implements View.OnClickLis
     TextView tvverify;
     @InjectView(R.id.btnCancel)
     Button bCancel;
+    @InjectView(R.id.radioVerify)
+    RadioGroup gVerify;
     @InjectView(R.id.cProses)
-    CheckBox cProses;
+    RadioButton cProses;
     @InjectView(R.id.cPending)
-    CheckBox cPending;
+    RadioButton cPending;
     @InjectView(R.id.cSelesai)
-    CheckBox cSelesai;
+    RadioButton cSelesai;
     @InjectView(R.id.cVerify)
     CheckBox cVerify;
     @InjectView(R.id.temporary_gcm_pengadu)
@@ -89,6 +93,7 @@ public class NotifActivity2 extends AppCompatActivity implements View.OnClickLis
     TextView temp_id_keluhan;
     String n_keluhan, idk_last,nama;
     int p;
+    String statuS;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -150,19 +155,12 @@ public class NotifActivity2 extends AppCompatActivity implements View.OnClickLis
         }
         if (sts.equals("PROSES")) {
             cProses.setChecked(true);
-            cProses.setEnabled(false);
         } else if (sts.equals("PENDING")) {
-            cProses.setEnabled(false);
-            cPending.setEnabled(false);
-            cPending.setChecked(true);
+           cPending.setChecked(true);
         } else if (sts.equals("SELESAI")) {
-            cPending.setEnabled(false);
-            cProses.setEnabled(false);
-            cSelesai.setChecked(true);
+           cSelesai.setChecked(true);
         } else {
-            cProses.setEnabled(false);
-            cPending.setEnabled(false);
-            cSelesai.setEnabled(false);
+
         }
     }
 

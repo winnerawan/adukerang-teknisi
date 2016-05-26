@@ -49,6 +49,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:ms_hint="Level"
+        android:visibility="gone"
         app:ms_multiline="false"
         app:ms_hintColor="@color/white"
         app:ms_alignLabels="false"
@@ -70,10 +71,9 @@
         android:gravity="center"
         android:background="@drawable/button"
         android:textSize="15dp"
+        android:layout_marginBottom="70dp"
         android:layout_alignParentBottom="true"
-        android:layout_alignLeft="@+id/spinner_level"
-        android:layout_alignStart="@+id/spinner_level"
-        android:layout_marginBottom="39dp" />
+        android:layout_alignStart="@+id/password" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -83,6 +83,26 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="130dp"
         android:src="@drawable/logofix" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView4"
+        android:src="@drawable/ipb"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/imageView"
+        android:layout_marginTop="63dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/footer"
+        android:id="@+id/textView3"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp" />
 
 </RelativeLayout>
 

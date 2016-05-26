@@ -12,7 +12,10 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.CompoundButton;
 import android.widget.ImageView;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -54,6 +57,7 @@ public class NotifActivity extends AppCompatActivity implements View.OnClickList
     private static String TAG = NotifActivity.class.getSimpleName();
 
     private SQLiteHandler db;
+    String statuS;
     private SessionManager session;
     ImageLoader imageLoader = AppController.getInstance().getImageLoader();
     String uid, email, name, teknisi_id, id_ruangan, id_barang, keluhan, foto, id_pengadu, id_keluhan, status;
@@ -74,12 +78,14 @@ public class NotifActivity extends AppCompatActivity implements View.OnClickList
     TextView tvverify;
     @InjectView(R.id.btnCancel)
     Button bCancel;
+    @InjectView(R.id.radioVerify)
+    RadioGroup gVerify;
     @InjectView(R.id.cProses)
-    CheckBox cProses;
+    RadioButton cProses;
     @InjectView(R.id.cPending)
-    CheckBox cPending;
+    RadioButton cPending;
     @InjectView(R.id.cSelesai)
-    CheckBox cSelesai;
+    RadioButton cSelesai;
     @InjectView(R.id.cVerify)
     CheckBox cVerify;
     @InjectView(R.id.temporary_gcm_pengadu)
@@ -143,25 +149,27 @@ public class NotifActivity extends AppCompatActivity implements View.OnClickList
         }
         if (v == bLapor) {
             //sendNotifications();
-            String statuS = "status";
-            if (cSelesai.isChecked()) {
-                cPending.setChecked(false);
-                cProses.setChecked(false);
-                statuS = "SELESAI";
-            } else if (cPending.isChecked()) {
-                cSelesai.setChecked(false);
-                cProses.setChecked(false);
-                statuS = "PENDING";
+            statuS = "status";
 
-            }
-            updateKeluhan2(statuS, tvKeluhan.getText().toString().replaceAll(" ", "%20"));
-            Log.e(TAG, "1........." + statuS);
-            Log.e(TAG, "2........." + tvKeluhan.getText().toString());
-            getGCMUser();
-            //sendNotifications();
-            onBackPressed();
+            gVerify.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+                @Override
+                public void onCheckedChanged(RadioGroup radioGroup, int i) {
+                    if (i == R.id.cSelesai) {
+                        statuS = "SELESAI";
+                    } else if (i == R.id.cPending) {
+                        statuS = "PENDING";
+                    }
+                }
+            });
+
 
         }
+        updateKeluhan2(statuS, tvKeluhan.getText().toString().replaceAll(" ", "%20"));
+        Log.e(TAG, "1........." + statuS);
+        Log.e(TAG, "2........." + tvKeluhan.getText().toString());
+        getGCMUser();
+        //sendNotifications();
+        onBackPressed();
 
         if ((v == bLapor) && (cVerify.isChecked())) {
             tutupKeluhan();
@@ -201,19 +209,20 @@ public class NotifActivity extends AppCompatActivity implements View.OnClickList
 
                                 if (status.equals("PROSES")) {
                                     cProses.setChecked(true);
+                                    cProses.setEnabled(false);
                                     cPending.setEnabled(true);
-                                    cSelesai.setEnabled(false);
-                                } else if (status.equals("PENDING")) {
-                                    cProses.setEnabled(false);
-                                    cProses.setChecked(false);
-                                    cPending.setChecked(true);
-                                    cPending.setEnabled(false);
                                     cSelesai.setEnabled(true);
-                                } else if (status.equals("SELESAI")) {
-                                    cPending.setEnabled(false);
-                                    cProses.setEnabled(false);
-                                    cSelesai.setEnabled(true);
-                                    cSelesai.setChecked(true);
+                                //} else if (status.equals("PENDING")) {
+                               //     cProses.setEnabled(false);
+                                //    cProses.setChecked(false);
+                                //    cPending.setChecked(true);
+                                //    cPending.setEnabled(false);
+                                //    cSelesai.setEnabled(true);
+                               // } else if (status.equals("SELESAI")) {
+                               //     cPending.setEnabled(false);
+                               //     cProses.setEnabled(false);
+                               //     cSelesai.setEnabled(true);
+                               //     cSelesai.setChecked(true);
                                 }
                                 iv_foto_keluhan.setImageUrl(foto, imageLoader);
                                 temp_uid.setText(uid);

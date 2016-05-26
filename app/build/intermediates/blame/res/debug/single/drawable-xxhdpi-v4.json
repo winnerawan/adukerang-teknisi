@@ -300,6 +300,10 @@
         "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/drawable-xxhdpi/logoatas.png"
     },
     {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ipb.png",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/drawable-xxhdpi/ipb.png"
+    },
+    {
         "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/cast_ic_notification_on.png",
         "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/8.4.0/res/drawable-xxhdpi/cast_ic_notification_on.png"
     },
@@ -466,6 +470,10 @@
     {
         "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/met_ic_clear.png",
         "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.rengwuxian.materialedittext/library/2.0.3/res/drawable-xxhdpi-v4/met_ic_clear.png"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/help.png",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/drawable-xxhdpi/help.png"
     },
     {
         "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_go_search_api_mtrl_alpha.png",

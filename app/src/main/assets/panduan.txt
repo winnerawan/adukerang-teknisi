@@ -1,0 +1,14 @@
+Ubah status pengaduan :
+1. Jika ada notification, tekan notification
+  - Ceklis combo box sesuai status yang ingin diubah
+  - Tekan button send
+2. Jika ingin ubah status dari pengaduan yang belum selesai ditangani
+  - Berada pada halaman beranda
+  - Tekan pengaduan yang ingin diubah statusnya
+  - Ceklis combo box sesuai status yang ingin diubah
+  - Tekan button send
+3. Edit Profil :
+  - Tekan button pilihan menu di pojok kiri atas.
+  - Pilih menu setting, lalu ubah data.
+  - Tekan button send.
+

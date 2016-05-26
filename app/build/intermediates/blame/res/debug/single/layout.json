@@ -276,12 +276,12 @@
         "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/layout/activity_teknisi.xml"
     },
     {
-        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/list_comment.xml",
-        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/layout/list_comment.xml"
-    },
-    {
         "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/list_keluhan.xml",
         "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/layout/list_keluhan.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/list_comment.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/layout/list_comment.xml"
     },
     {
         "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/content_register.xml",
@@ -444,6 +444,10 @@
         "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/select_dialog_singlechoice_material.xml"
     },
     {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/tool.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/layout/tool.xml"
+    },
+    {
         "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/activity_lapor.xml",
         "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/layout/activity_lapor.xml"
     },
@@ -474,5 +478,9 @@
     {
         "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/material_drawer_item_mini.xml",
         "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.mikepenz/materialdrawer/4.0.8/res/layout/material_drawer_item_mini.xml"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/layout/activity_version.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/layout/activity_version.xml"
     }
 ]

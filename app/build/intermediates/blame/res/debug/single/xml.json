@@ -12,6 +12,10 @@
         "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/xml/pref_data_sync.xml"
     },
     {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/xml/help.xml",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/xml/help.xml"
+    },
+    {
         "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/xml/pref_notification.xml",
         "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/xml/pref_notification.xml"
     }

@@ -36,7 +36,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".activity.MainActivity"
+            android:name=".activity.LoginActivity"
             android:label="Complaints"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -46,7 +46,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activity.LoginActivity"
+            android:name=".activity.MainActivity"
             android:label="@string/title_activity_login"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
@@ -112,6 +112,8 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="co.ipb.adukerang.activity.DetailsActivity" />
         </activity>
+         <activity android:name=".activity.Help" />
+        <activity android:name=".handler.Version"></activity>
     </application>
 
 </manifest>

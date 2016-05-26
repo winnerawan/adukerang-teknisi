@@ -106,27 +106,33 @@
             android:layout_marginRight="10dip"
             android:textSize="8pt"
             android:textColor="@color/colorPrimary"/>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:id="@+id/radioVerify"
+        android:layout_height="wrap_content">
 
-        <CheckBox
+        <RadioButton
             android:layout_width="match_parent"
             android:text="PROSES"
             android:id="@+id/cProses"
             android:layout_marginLeft="10dp"
             android:layout_height="match_parent" />
 
-        <CheckBox
+        <RadioButton
             android:id="@+id/cPending"
             android:layout_width="match_parent"
             android:text="PENDING"
             android:layout_marginLeft="10dp"
             android:layout_height="match_parent" />
 
-        <CheckBox
+        <RadioButton
             android:id="@+id/cSelesai"
             android:layout_width="match_parent"
             android:text="SELESAI"
             android:layout_marginLeft="10dp"
             android:layout_height="match_parent" />
+    </RadioGroup>
+
         </LinearLayout>
 
         <Spinner
