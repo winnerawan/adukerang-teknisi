@@ -161,6 +161,11 @@ public class NotifActivity extends AppCompatActivity implements View.OnClickList
                     }
                 }
             });
+            if (cSelesai.isChecked()) {
+                statuS="SELESAI";
+            } else if (cPending.isChecked()) {
+                statuS="PENDING";
+            }
 
 
         }

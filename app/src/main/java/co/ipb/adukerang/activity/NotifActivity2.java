@@ -158,7 +158,7 @@ public class NotifActivity2 extends AppCompatActivity implements View.OnClickLis
         } else if (sts.equals("PENDING")) {
            cPending.setChecked(true);
         } else if (sts.equals("SELESAI")) {
-           cSelesai.setChecked(true);
+           cSelesai.setChecked(true );
         } else {
 
         }
