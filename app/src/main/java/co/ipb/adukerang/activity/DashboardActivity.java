@@ -27,6 +27,7 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.volley.AuthFailureError;
@@ -34,6 +35,7 @@ import com.android.volley.Request;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.VolleyLog;
+import com.android.volley.toolbox.JsonArrayRequest;
 import com.android.volley.toolbox.StringRequest;
 import com.astuetz.PagerSlidingTabStrip;
 import com.google.android.gcm.GCMRegistrar;
@@ -49,6 +51,7 @@ import com.mikepenz.materialdrawer.model.PrimaryDrawerItem;
 import com.mikepenz.materialdrawer.model.ProfileDrawerItem;
 import com.mikepenz.materialdrawer.model.interfaces.IDrawerItem;
 
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -76,12 +79,13 @@ public class DashboardActivity extends AppCompatActivity {
     private static final String PROPERTY_APP_VERSION = "appVersion";
     private final static int PLAY_SERVICES_RESOLUTION_REQUEST = 9000;
     private Drawer mDrawer;
+    String tk;
     private SessionManager session;
     private SQLiteHandler db;
     public static String gname;
     public static String gemail;
     GoogleCloudMessaging gcm;
-    String regId,email,name;
+    String regId,email,name,uid;
     Context context;
     SharedPreferences prefs;
     @Override
@@ -115,11 +119,13 @@ public class DashboardActivity extends AppCompatActivity {
         HashMap<String, String> user = db.getUserDetails();
         name = user.get("name");
         email = user.get("email");
+        uid = user.get("uid");
+        getTk();
         if (!session.isLoggedIn()) {
             logoutUser();
         }
         try {
-            if (new Date().after(new GregorianCalendar(2016,03,16).getTime())) {
+            if (new Date().after(new GregorianCalendar(2016,06,25).getTime())) {
                 AlertDialog.Builder alert = new AlertDialog.Builder(DashboardActivity.this);
                 alert.setTitle(R.string.alert);
                 alert.setMessage(R.string.version);
@@ -565,9 +571,16 @@ public class DashboardActivity extends AppCompatActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main, menu);
+
         return true;
     }
+    @Override
+    public boolean onPrepareOptionsMenu(Menu menu) {
+        MenuItem myItem = menu.findItem(R.id.action_total);
 
+        myItem.setTitle(tk);
+        return true;
+    }
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
@@ -579,6 +592,13 @@ public class DashboardActivity extends AppCompatActivity {
         if (id == R.id.action_settings) {
             Intent i = new Intent(DashboardActivity.this, NotifActivity.class);
             startActivity(i);
+        } else if (id==R.id.action_total) {
+            String cmpl="Complaint";
+            int itk = Integer.parseInt(tk);
+            if (itk>=1) {
+                cmpl="Complaints";
+            }
+            Toast.makeText(getApplicationContext(),"Dear Teknisi, You Have "+tk+" "+ cmpl,Toast.LENGTH_LONG).show();
         }
 
         return super.onOptionsItemSelected(item);
@@ -650,6 +670,43 @@ public class DashboardActivity extends AppCompatActivity {
     public void onBackPressed() {
         moveTaskToBack(true);
         finish();
+    }
+
+    private void getTk() {
+
+        JsonArrayRequest req = new JsonArrayRequest(AppConfig.URL_TOTAL_KELUHAN + uid,
+                new Response.Listener<JSONArray>() {
+                    @Override
+                    public void onResponse(JSONArray response) {
+                        Log.d(TAG, response.toString());
+
+                        try {
+
+                            for (int i = 0; i < response.length(); i++) {
+
+                                JSONObject details = (JSONObject) response
+                                        .get(i);
+
+                                tk = details.getString("TOTAL");
+                            }
+
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+                            VolleyLog.d(TAG, "ERROR" + e.getMessage());
+                        }
+
+                    }
+                }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                VolleyLog.d(TAG, "" + error.getMessage());
+                Toast.makeText(getApplicationContext(),
+                        error.getMessage(), Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        // Adding request to request queue
+        AppController.getInstance().addToRequestQueue(req);
     }
     }
 

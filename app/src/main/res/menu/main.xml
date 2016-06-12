@@ -3,8 +3,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/action_settings"
-        android:orderInCategory="100"
+        android:orderInCategory="200"
         android:icon="@drawable/notification"
         android:title="@string/action_settings"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_total"
+        android:orderInCategory="100"
+        android:title=""
         app:showAsAction="always" />
 </menu>

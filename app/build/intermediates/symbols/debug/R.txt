@@ -1390,6 +1390,7 @@ int id action_mode_bar 0x7f100085
 int id action_mode_bar_stub 0x7f100084
 int id action_mode_close_button 0x7f10006a
 int id action_settings 0x7f100145
+int id action_total 0x7f100146
 int id activity_chooser_view_content 0x7f10006b
 int id adjust_height 0x7f10003b
 int id adjust_width 0x7f10003c

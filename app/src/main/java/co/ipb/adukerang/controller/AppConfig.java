@@ -24,6 +24,7 @@ public class AppConfig {
     public static String url_last           = "http://api.winnerawan.net/adukerang/teknisi/get/keluhan/last.php";
     public static String URL_SET_AVATAR     = "http://api.winnerawan.net/adukerang/update/user/upload.php";
     public static String URL_HOME_TEKNISI   = "http://api.winnerawan.net/adukerang/get/keluhan/teknisi/?teknisi_id=";
+    public static String URL_TOTAL_KELUHAN  = "http://api.winnerawan.net/adukerang/get/keluhan/total/?teknisi_id=";
     public static String UPDATE_USER_DETAILS= "http://api.winnerawan.net/adukerang/update/user/details/?unique_id=";
     public static String URL_GET_K_DETAILS  = "http://api.winnerawan.net/adukerang/get/details/?id_keluhan=";
     public static String URL_LIKE           = "http://api.winnerawan.net/adukerang/set/liked/";
