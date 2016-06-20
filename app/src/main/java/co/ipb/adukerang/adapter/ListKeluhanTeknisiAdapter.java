@@ -67,11 +67,13 @@ public class ListKeluhanTeknisiAdapter extends BaseAdapter {
         View v_status = convertView.findViewById(R.id.view_status);
         TextView tvstatuskel = (TextView)convertView.findViewById(R.id.statuskeluhan);
         TextView tvs = (TextView)convertView.findViewById(R.id.tvstatus);
+        TextView jk = (TextView)convertView.findViewById(R.id.jumkel);
 
 
 
         Keluhan k = listKeluhan.get(position);
         tvs.setText(k.getStatus());
+        jk.setText(k.getJumkel());
         tvstatuskel.setText(k.getStatus());
         image.setImageUrl(k.getFoto(), imageLoader);
         namaPengeluh.setText(k.getName());

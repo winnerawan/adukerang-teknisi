@@ -21,7 +21,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="160dp"
                 android:scaleType="centerCrop"
-                android:id="@+id/thumbnail"/>
+                android:id="@+id/thumbnail"
+                android:layout_below="@+id/idk"
+                android:layout_alignParentEnd="true" />
 
             <View
                 android:layout_width="match_parent"
@@ -119,6 +121,17 @@
                 android:layout_height="match_parent"
                 android:id="@+id/tvstatus"
                 android:visibility="gone"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/jumkel"
+                android:textStyle="bold"
+                android:textColor="@android:color/holo_red_light"
+                android:layout_alignTop="@+id/line"
+                android:layout_alignParentEnd="true"
+                android:layout_alignStart="@+id/line" />
 
 
         </RelativeLayout>

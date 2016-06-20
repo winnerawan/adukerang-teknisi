@@ -52,12 +52,12 @@
         "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/drawable-xxxhdpi/places_ic_clear.png"
     },
     {
-        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png",
-        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-xxxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
         "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/blur.jpg",
         "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/src/main/res/drawable-xxxhdpi/blur.jpg"
+    },
+    {
+        "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-xxxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
         "merged": "/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_ic_star_half_black_36dp.png",

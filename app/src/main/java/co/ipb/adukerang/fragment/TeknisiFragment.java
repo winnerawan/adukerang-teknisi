@@ -49,7 +49,7 @@ public class TeknisiFragment extends ListFragment {
     public JSONObject obj;
     private SQLiteHandler db;
     private SessionManager session;
-    String barang,ruang,sts,nama;
+    String barang,ruang,sts,nama,jumkel;
     public TeknisiFragment() {
 
     }
@@ -81,6 +81,7 @@ public class TeknisiFragment extends ListFragment {
                         keluhan.setId_keluhan(obj.getString("id_keluhan"));
                         keluhan.setName(obj.getString("name"));
                         keluhan.setFoto(obj.getString("foto"));
+                        keluhan.setJumkel(obj.getString("jumkel"));
                         keluhan.setKeluhan(obj.getString("keluhan"));
                         //keluhan.setUnique_id(obj.getString("unique_id"));
                         keluhan.setProfile_picture(obj.getString("profile_picture"));
@@ -89,6 +90,7 @@ public class TeknisiFragment extends ListFragment {
                         ruang = obj.getString("id_ruang");
                         sts  = obj.getString("status");
                         nama = obj.getString("name");
+                        jumkel = obj.getString("jumkel");
                         listKeluhan.add(keluhan);
                     } catch (JSONException e) {
                         e.printStackTrace();

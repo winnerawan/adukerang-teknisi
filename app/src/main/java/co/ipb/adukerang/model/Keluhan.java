@@ -15,6 +15,7 @@ public class Keluhan {
     public String keterangan;
     public String profile_picture;
     public String name;
+    public String jumkel;
 
     public Keluhan() {
 
@@ -22,7 +23,7 @@ public class Keluhan {
 
     public Keluhan(String id_ruang, String id_keluhan, String id_barang, String id_teknisi,
                     int uid, String keluhan, String foto, String status, String keterangan,
-                    String profile_picture, String name) {
+                    String profile_picture, String name, String jumkel) {
 
         this.id_ruang=id_ruang;
         this.id_keluhan=id_keluhan;
@@ -35,7 +36,16 @@ public class Keluhan {
         this.keterangan=keterangan;
         this.profile_picture=profile_picture;
         this.name=name;
+        this.jumkel=jumkel;
 
+    }
+
+    public String getJumkel() {
+        return jumkel;
+    }
+
+    public void setJumkel(String jumkel) {
+        this.jumkel = jumkel;
     }
 
     public String getId_ruang() {

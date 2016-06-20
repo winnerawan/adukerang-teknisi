@@ -5,7 +5,7 @@
         jar="/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         revision="24.0.0 rc2"
-        sha1="e8bf2a4f50e95e837a19b51df8a9c4c6b91ae49e">
+        sha1="73564463101ad286c6b32793dd1b2715ad4634af">
         <dex dex="/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_7a0e59fa6eebdbc98e90d2d260f775bcab82bda0/classes.dex" />
     </item>
     <item
@@ -208,7 +208,7 @@
         jar="/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         revision="24.0.0 rc2"
-        sha1="9e3f6693f894169a57988f9ab78fb426f4d7f5da">
+        sha1="6eff69deff0020fee6dbcf7e4c77f92d8ddfb3d0">
         <dex dex="/home/winnerawan/AndroidStudioProjects/adukerang-teknisi/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_afcb482b078d681c3339aeab6cc055bc6a2fc8e9/classes.dex" />
     </item>
     <item
